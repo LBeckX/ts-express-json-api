@@ -1,5 +1,5 @@
 import {Service} from "typedi";
-import {RoutesAbstract} from "../../../_abstract/routes.abstract";
+import {RoutesAbstract} from "../../../../_abstract/routes.abstract";
 import {UserController} from "../controller/user.controller";
 
 @Service()

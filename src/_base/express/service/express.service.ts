@@ -1,7 +1,7 @@
 import {Service} from "typedi";
 import express from "express";
-import {UserRoutes} from "../../user/routes/user.routes";
-import {ExpressConfig} from "../../../_config/express.config";
+import {UserRoutes} from "../../../_module/_example/user/routes/user.routes";
+import {ExpressConfig} from "../config/express.config";
 import {RoutesAbstract} from "../../../_abstract/routes.abstract";
 
 @Service()

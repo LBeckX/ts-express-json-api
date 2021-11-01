@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "watch": true,
     "module": "commonjs",
     "esModuleInterop": true,
     "target": "es2020",
@@ -7,15 +8,16 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
-    "types": ["reflect-metadata"],
+    "types": [
+      "reflect-metadata"
+    ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "paths": {
       "*": [
         "node_modules/*"
       ]
-    },
-    "watch": true
+    }
   },
   "include": [
     "src/**/*"

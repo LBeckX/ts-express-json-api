@@ -1,9 +1,8 @@
 import {Service} from "typedi";
 import UserService from "../service/user.service";
-import {ControllerAbstract} from "../../../_abstract/controller.abstract";
-import {NextFunction, Request} from "express-serve-static-core";
-import {RequestHandler, Response} from "express";
-import {JsonResponse} from "../../../_classes/response/json-response";
+import {ControllerAbstract} from "../../../../_abstract/controller.abstract";
+import {RequestHandler} from "express";
+import {JsonResponse} from "../../../../_base/response/json-response";
 
 @Service()
 export class UserController extends ControllerAbstract {

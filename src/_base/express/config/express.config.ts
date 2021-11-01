@@ -1,5 +1,5 @@
 import {Service} from "typedi";
-import {Env} from "./env";
+import {Env} from "../../../env";
 
 @Service()
 export class ExpressConfig {

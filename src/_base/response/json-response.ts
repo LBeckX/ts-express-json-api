@@ -1,6 +1,6 @@
 import {BaseResponseAbstract} from "./base-response.abstract";
 import {Response} from "express";
-import {JsonResponseModel} from "./_model/json-response.model";
+import {JsonResponseModel} from "./model/json-response.model";
 
 export class JsonResponse extends BaseResponseAbstract {
     constructor(response: Response) {
